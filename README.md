@@ -8,6 +8,10 @@ ShanaEncoder中文汉化
 
 ShanaEncoder汉化补丁
 
+## 使用
+
+使用[releases](https://github.com/gooosie/ShanaEncoder-Chinese-Localization/releases)里的ShanaEncoder.resources.dll替换ShanaEncoder安装目录下en目录的ShanaEncoder.resources.dll
+
 ## 下载
 
 [下载](https://github.com/gooosie/ShanaEncoder-Chinese-Localization/releases)
