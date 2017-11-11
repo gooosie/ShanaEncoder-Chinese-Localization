@@ -1,0 +1,1911 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="editfrm_huehButton" xml:space="preserve">
+    <value>色调</value>
+  </data>
+  <data name="mainfrm_stopButton" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="editfrm_OKButton" xml:space="preserve">
+    <value>保存设置</value>
+  </data>
+  <data name="editfrm_hflipcheckBox" xml:space="preserve">
+    <value>水平翻转</value>
+  </data>
+  <data name="subtitle_alignment" xml:space="preserve">
+    <value>设置叠加层的位置。
+对齐方式与键盘数字键盘相同。
+您可以输入1到9</value>
+  </data>
+  <data name="edit_notice" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="main_folder_none" xml:space="preserve">
+    <value>该目录不存在。</value>
+  </data>
+  <data name="logofrm_okbutton" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="mainfrm_InactiveToolStripMenuItem" xml:space="preserve">
+    <value>非活动窗口亮度</value>
+  </data>
+  <data name="mainfrm_encspeedlabel" xml:space="preserve">
+    <value>处理速率</value>
+  </data>
+  <data name="editfrm_aspectlabel" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="editfrm_eqPopToolStripMenuItem" xml:space="preserve">
+    <value>流行</value>
+  </data>
+  <data name="editfrm_vflipcheckBox" xml:space="preserve">
+    <value>垂直翻转</value>
+  </data>
+  <data name="main_suspend" xml:space="preserve">
+    <value>暂停</value>
+  </data>
+  <data name="editfrm_logogroupBox" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="segmentfrm_TopLabel" xml:space="preserve">
+    <value>上：</value>
+  </data>
+  <data name="main_success" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="mainfrm_encconcatenateCheckBox" xml:space="preserve">
+    <value>拼接</value>
+  </data>
+  <data name="afterencodingfrm_0_cancelbutton" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="main_info_remaining" xml:space="preserve">
+    <value>剩余</value>
+  </data>
+  <data name="xmlsave_notice" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="subtitle_name" xml:space="preserve">
+    <value>设置样式。
+默认是样式：默认</value>
+  </data>
+  <data name="subtitle_bold" xml:space="preserve">
+    <value>设置是否使用粗体。
+-1启用，0禁用。</value>
+  </data>
+  <data name="streamfrm_vgroupBox" xml:space="preserve">
+    <value>视频流</value>
+  </data>
+  <data name="logofrm_logorbradioButton" xml:space="preserve">
+    <value>右下方</value>
+  </data>
+  <data name="about_newver_fail" xml:space="preserve">
+    <value>最新版本：未知</value>
+  </data>
+  <data name="xmlsavefrm_ShanaTheme" xml:space="preserve">
+    <value>保存一个新的预设名称</value>
+  </data>
+  <data name="editfrm_veqbButton" xml:space="preserve">
+    <value>亮度</value>
+  </data>
+  <data name="mainfrm_EncMethodToolStripMenuItem" xml:space="preserve">
+    <value>如果输出文件已经存在</value>
+  </data>
+  <data name="segmentfrm_setStartTimeToolStripMenuItem" xml:space="preserve">
+    <value>设置开始时间</value>
+  </data>
+  <data name="main_resume" xml:space="preserve">
+    <value>继续</value>
+  </data>
+  <data name="main_info_bitrate" xml:space="preserve">
+    <value>比特率</value>
+  </data>
+  <data name="subtitlefrm_defbutton" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="main_set_chg_fail" xml:space="preserve">
+    <value>该列表已经开始编码。</value>
+  </data>
+  <data name="xmlsave_set_save" xml:space="preserve">
+    <value>设置已保存。</value>
+  </data>
+  <data name="subtitle_underline" xml:space="preserve">
+    <value>设置是否使用下划线。
+-1启用，0禁用。</value>
+  </data>
+  <data name="logfrm_ShanaTheme" xml:space="preserve">
+    <value>编码日志</value>
+  </data>
+  <data name="editfrm_bitrateradioButton" xml:space="preserve">
+    <value>比特率</value>
+  </data>
+  <data name="aboutfrm_namelabel" xml:space="preserve">
+    <value>ShanaEncoder</value>
+  </data>
+  <data name="subtitle_strikeout" xml:space="preserve">
+    <value>设置是否使用删除线。
+-1启用，0禁用。</value>
+  </data>
+  <data name="logo_err" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="main_editedxmlname" xml:space="preserve">
+    <value>编辑</value>
+  </data>
+  <data name="parameterfrm_x264rolabel" xml:space="preserve">
+    <value>x264opts
+（只读）</value>
+  </data>
+  <data name="main_pm_def" xml:space="preserve">
+    <value>默认设置</value>
+  </data>
+  <data name="main_preset" xml:space="preserve">
+    <value>预设</value>
+  </data>
+  <data name="editfrm_veqsButton" xml:space="preserve">
+    <value>饱和度</value>
+  </data>
+  <data name="editfrm_MarginLLabel" xml:space="preserve">
+    <value>左边距</value>
+  </data>
+  <data name="main_set_copy" xml:space="preserve">
+    <value>设置已被复制到预设文件夹。</value>
+  </data>
+  <data name="main_set_chg2" xml:space="preserve">
+    <value>项目更改为当前设置？</value>
+  </data>
+  <data name="filterfrm_okbutton" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="logofrm_logortradioButton" xml:space="preserve">
+    <value>右上方</value>
+  </data>
+  <data name="segmentfrm_okbutton" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="xmlsave_savechk" xml:space="preserve">
+    <value>名称不能包含 \, /, :, *, ?, &lt;, &gt;, |, &amp; 字符。</value>
+  </data>
+  <data name="editfrm_subtextcheckBox" xml:space="preserve">
+    <value>隐藏字幕</value>
+  </data>
+  <data name="mainfrm_selfilterToolStripMenuItem" xml:space="preserve">
+    <value>过滤器设置</value>
+  </data>
+  <data name="editfrm_h264_nvenclevellabel" xml:space="preserve">
+    <value>级别</value>
+  </data>
+  <data name="openclfrm_okbutton" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="segmentfrm_segmenttabPage" xml:space="preserve">
+    <value>分割</value>
+  </data>
+  <data name="mainfrm_MTToolStripMenuItem" xml:space="preserve">
+    <value>多线程/同步</value>
+  </data>
+  <data name="mainfrm_BorderToolStripMenuItem" xml:space="preserve">
+    <value>边框</value>
+  </data>
+  <data name="editfrm_advsubButton" xml:space="preserve">
+    <value>字幕样式</value>
+  </data>
+  <data name="mainfrm_x86x64ToolStripMenuItem" xml:space="preserve">
+    <value>选择32位/ 64位</value>
+  </data>
+  <data name="shanaffplayfrm_help" xml:space="preserve">
+    <value>要查看此帮助，请按F1键。
+
+-------------------------
+
+ShanaFFplay快捷键
+
+Esc, Q
+退出
+
+空格, 鼠标左键双击
+播放/暂停
+
+回车, 鼠标中键
+全屏
+
+A
+循环音频频道
+
+V
+循环视频频道
+
+T
+循环字幕频道
+
+W
+显示音频波形
+
+S
+进入下一帧
+
+D
+向前1秒（关键帧）
+
+F
+向前0.05秒（关键帧）
+
+左 或 E, 右 或 R
+向前向后5秒（关键帧）
+
+PgUp, PgDn
+向前向后5分钟（关键帧）
+
+[, ]
+变速
+
+下, 上, 鼠标滚轮
+音量
+
+点击进度条
+跳到相应位置百分百的时间
+
+-------------------------
+
+底部的文字说明
+
+00:00:00.00
+播放时间。
+
+1.0x
+变速。
+
+A-V: 0.000
+音频和视频同步的时间差。
+
+vol=128(100%)
+音量。
+
+type=?
+帧类型。
+
+keyframe=0
+关键帧。
+如果值为1，则为关键帧。
+
+fd=0
+丢帧。
+
+60fps
+播放帧率。</value>
+  </data>
+  <data name="editfrm_libx264closelabel" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="setdeffrm_logocheckBox" xml:space="preserve">
+    <value>Logo设置</value>
+  </data>
+  <data name="filterfrm_helplabel" xml:space="preserve">
+    <value>音频/视频过滤器编辑器。
+
+从最上面一行开始过滤器的顺序和应用的过滤器的效果是不同的。</value>
+  </data>
+  <data name="filterfrm_cancelbutton" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="mainfrm_encoverwToolStripMenuItem" xml:space="preserve">
+    <value>覆盖</value>
+  </data>
+  <data name="main_notifyIcon_finish" xml:space="preserve">
+    <value>编码已经完成。</value>
+  </data>
+  <data name="editfrm_lameabrradioButton" xml:space="preserve">
+    <value>ABR</value>
+  </data>
+  <data name="edit_prefix_caution" xml:space="preserve">
+    <value>文件名前缀不能包含 \, /, :, *, ?, &lt;, &gt;, | 字符。</value>
+  </data>
+  <data name="editfrm_dBvolcheckBox" xml:space="preserve">
+    <value>dB</value>
+  </data>
+  <data name="main_select_setting" xml:space="preserve">
+    <value>你想选择这个设置吗？</value>
+  </data>
+  <data name="subtitlefrm_okbutton" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="editfrm_aresamplecheckBox" xml:space="preserve">
+    <value>采样率</value>
+  </data>
+  <data name="edit_setsar_chg" xml:space="preserve">
+    <value>SAR（样本宽高比）不是1/1。
+如果没有设置1/1，宽高比可能会导致问题。
+修改为1/1？</value>
+  </data>
+  <data name="aboutfrm_alltext" xml:space="preserve">
+    <value>
+ ShanaEncoder
+
+ This program is possible to install in individual/company/school/government anywhere and use freely.
+ Copyright © 2008-2017 LEE KIWON
+ License: Freeware
+
+ Program Developer: LEE KIWON(Shana) - https://shana.pe.kr
+
+ Icon Maker
+  - ver 1, 3: N.S.H.
+  - ver 2: KIM MINTAE(Iriya)
+
+ 汉化： https://github.com/gooosie/ShanaEncoder-Chinese-Localization
+
+ ----------------------------------------------
+
+ FFmpeg for ShanaEncoder
+
+ Source: https://shana.pe.kr/ffmpeg
+ Copyright (c) 2000-2017 the FFmpeg developers
+ License: GPLv3
+
+ ----------------------------------------------</value>
+  </data>
+  <data name="editfrm_audiobitratelabel" xml:space="preserve">
+    <value>音频比特率</value>
+  </data>
+  <data name="mainfrm_ProcPriorityToolStripMenuItem" xml:space="preserve">
+    <value>进程优先级</value>
+  </data>
+  <data name="logofrm_ylabel" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="segmentfrm_LeftLabel" xml:space="preserve">
+    <value>左：</value>
+  </data>
+  <data name="mainfrm_StreamSelectionToolStripMenuItem" xml:space="preserve">
+    <value>视频/音频流选择(&amp;E)</value>
+  </data>
+  <data name="streamfrm_agroupBox" xml:space="preserve">
+    <value>音频流</value>
+  </data>
+  <data name="editfrm_x264tunelabel" xml:space="preserve">
+    <value>调整</value>
+  </data>
+  <data name="logofrm_xlabel" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="editfrm_fontButton" xml:space="preserve">
+    <value>字幕字体</value>
+  </data>
+  <data name="main_pm_save" xml:space="preserve">
+    <value>保存预设</value>
+  </data>
+  <data name="main_pm_user" xml:space="preserve">
+    <value>你想保存到“自定义”吗？</value>
+  </data>
+  <data name="main_pm_open" xml:space="preserve">
+    <value>添加预设</value>
+  </data>
+  <data name="mainfrm_listView_preset" xml:space="preserve">
+    <value>预设</value>
+  </data>
+  <data name="editfrm_MarginRLabel" xml:space="preserve">
+    <value>右边距</value>
+  </data>
+  <data name="main_mediafile" xml:space="preserve">
+    <value>媒体文件</value>
+  </data>
+  <data name="mainfrm_logsaveToolStripMenuItem" xml:space="preserve">
+    <value>保存日志文件</value>
+  </data>
+  <data name="editfrm_miscButton" xml:space="preserve">
+    <value>杂项</value>
+  </data>
+  <data name="edit_vorbis_mono" xml:space="preserve">
+    <value>libvorbis和1ch的设置被限制为224比特率。
+因此自动设置为224。</value>
+  </data>
+  <data name="about_ShanaTheme_admin" xml:space="preserve">
+    <value>关于（以管理员运行）</value>
+  </data>
+  <data name="logofrm_logopathbutton" xml:space="preserve">
+    <value>...</value>
+  </data>
+  <data name="afterencoding_remaintime" xml:space="preserve">
+    <value>剩余</value>
+  </data>
+  <data name="subtitle_backcolour" xml:space="preserve">
+    <value>设置阴影颜色和透明度。
+（&amp;&amp;H 透明度 蓝 绿 红）顺序的十六进制值。</value>
+  </data>
+  <data name="segmentfrm_autocropdetectcheckBox" xml:space="preserve">
+    <value>启用cropdetect过滤器（如果电脑速度较慢，请取消选中）</value>
+  </data>
+  <data name="mainfrm_paramToolStripMenuItem" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="editfrm_assforcestylecheckBox" xml:space="preserve">
+    <value>ASS /内部字幕
+强制字幕样式</value>
+  </data>
+  <data name="main_file_not_found" xml:space="preserve">
+    <value>该文件不存在。</value>
+  </data>
+  <data name="subtitle_angle" xml:space="preserve">
+    <value>设置角度。
+您可以输入0到359
+缺省值是0</value>
+  </data>
+  <data name="shanaffplayfrm_closeToolStripMenuItem" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="parameterfrm_encslabel" xml:space="preserve">
+    <value>编码设置</value>
+  </data>
+  <data name="shanaffplay_welcome" xml:space="preserve">
+    <value>欢迎来到ShanaFFplay.
+要查看快捷键帮助，请按F1键。</value>
+  </data>
+  <data name="editfrm_shanapass2checkBox" xml:space="preserve">
+    <value>2 Pass</value>
+  </data>
+  <data name="segment_notice" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="mainfrm_addButton" xml:space="preserve">
+    <value>添加文件</value>
+  </data>
+  <data name="main_concat" xml:space="preserve">
+    <value>拼接</value>
+  </data>
+  <data name="concatenate_savechk" xml:space="preserve">
+    <value>文件名中不能包含 \, /, :, *, ?, &lt;, &gt;, |, &amp; 字符。</value>
+  </data>
+  <data name="editfrm_MarginVLabel" xml:space="preserve">
+    <value>垂直边距</value>
+  </data>
+  <data name="main_set_fail_copy" xml:space="preserve">
+    <value>无法复制到预设文件夹。</value>
+  </data>
+  <data name="shanaffplayfrm_colorSpaceToolStripMenuItem" xml:space="preserve">
+    <value>颜色空间</value>
+  </data>
+  <data name="segmentfrm_setEndTimeToolStripMenuItem" xml:space="preserve">
+    <value>设置结束时间</value>
+  </data>
+  <data name="editfrm_hevc_nvenclevellabel" xml:space="preserve">
+    <value>级别</value>
+  </data>
+  <data name="mainfrm_listView_status" xml:space="preserve">
+    <value>状态</value>
+  </data>
+  <data name="xmlsave_namechk" xml:space="preserve">
+    <value>请输入名字。</value>
+  </data>
+  <data name="mainfrm_noticecheckBox" xml:space="preserve">
+    <value>不要再显示此消息</value>
+  </data>
+  <data name="setdeffrm_cancelButton" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="main_finish" xml:space="preserve">
+    <value>完成</value>
+  </data>
+  <data name="mainfrm_settingsButton" xml:space="preserve">
+    <value>快速设置</value>
+  </data>
+  <data name="mainfrm_itemButton" xml:space="preserve">
+    <value>项目</value>
+  </data>
+  <data name="logofrm_logocheckBox" xml:space="preserve">
+    <value>启用logo</value>
+  </data>
+  <data name="logofrm_defbutton" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="mainfrm_DXVA2ToolStripMenuItem" xml:space="preserve">
+    <value>硬件加速解码（DXVA2）</value>
+  </data>
+  <data name="main_Maxbitrate" xml:space="preserve">
+    <value>最大比特率</value>
+  </data>
+  <data name="x264optsfrm_OKButton" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="logofrm_logoltradioButton" xml:space="preserve">
+    <value>左上方</value>
+  </data>
+  <data name="filterfrm_ppbutton" xml:space="preserve">
+    <value>属性</value>
+  </data>
+  <data name="editfrm_guide" xml:space="preserve">
+    <value>指南</value>
+  </data>
+  <data name="mainfrm_PNormalToolStripMenuItem" xml:space="preserve">
+    <value>标准</value>
+  </data>
+  <data name="logofrm_xygroupBox" xml:space="preserve">
+    <value>边距</value>
+  </data>
+  <data name="mainfrm_shutdowncheckBox" xml:space="preserve">
+    <value>自动关机</value>
+  </data>
+  <data name="subtitle_outline" xml:space="preserve">
+    <value>设置轮廓。
+推荐的设置范围是0.0〜100.0</value>
+  </data>
+  <data name="main_allfile" xml:space="preserve">
+    <value>所有文件</value>
+  </data>
+  <data name="mainfrm_ColorChangeToolStripMenuItem" xml:space="preserve">
+    <value>更改皮肤</value>
+  </data>
+  <data name="subdelayfrm_ShanaTheme" xml:space="preserve">
+    <value>字幕延迟/首选语言</value>
+  </data>
+  <data name="segmentfrm_stimecheckBox" xml:space="preserve">
+    <value>开始时间</value>
+  </data>
+  <data name="editfrm_crfradioButton" xml:space="preserve">
+    <value>质量</value>
+  </data>
+  <data name="mainfrm_listIconToolStripMenuItem" xml:space="preserve">
+    <value>显示文件列表图标</value>
+  </data>
+  <data name="shanamtfrm_mtlabel" xml:space="preserve">
+    <value>线程（默认0）
+线程类型（默认框架）
+异步（默认1，不要编辑或删除'异步'）</value>
+  </data>
+  <data name="openclfrm_opencllabel" xml:space="preserve">
+    <value>有些显卡不支持OpenCL，可能会出现编码错误。</value>
+  </data>
+  <data name="mainfrm_DFOToolStripMenuItem" xml:space="preserve">
+    <value>非活动窗口透明度</value>
+  </data>
+  <data name="main_info_q" xml:space="preserve">
+    <value>Q</value>
+  </data>
+  <data name="segment_enderr" xml:space="preserve">
+    <value>结束时间的格式不正确。</value>
+  </data>
+  <data name="logo_imagefile" xml:space="preserve">
+    <value>图像文件</value>
+  </data>
+  <data name="subtitle_secondarycolour" xml:space="preserve">
+    <value>设置辅助颜色和透明度。
+（&amp;&amp;H 透明度 蓝 绿 红）顺序的十六进制值。</value>
+  </data>
+  <data name="main_notice" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="streamfrm_adelButton" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="subtitle_spacing" xml:space="preserve">
+    <value>设置间距。
+默认值是0</value>
+  </data>
+  <data name="editfrm_transposecheckBox" xml:space="preserve">
+    <value>旋转</value>
+  </data>
+  <data name="segmentfrm_endtimecheckBox" xml:space="preserve">
+    <value>结束时间</value>
+  </data>
+  <data name="segmentfrm_settime" xml:space="preserve">
+    <value>设置时间</value>
+  </data>
+  <data name="mainfrm_ofolderlabel" xml:space="preserve">
+    <value>保存在源文件夹中。</value>
+  </data>
+  <data name="subtitle_shadow" xml:space="preserve">
+    <value>设置阴影。
+推荐的设置范围是0.0〜100.0</value>
+  </data>
+  <data name="filterfrm_vfButton" xml:space="preserve">
+    <value>视频</value>
+  </data>
+  <data name="editfrm_shanasubtitlecheckBox" xml:space="preserve">
+    <value>字幕覆盖</value>
+  </data>
+  <data name="subtitle_scalex" xml:space="preserve">
+    <value>设置X轴比例（单位：％）
+默认值是100</value>
+  </data>
+  <data name="subtitle_scaley" xml:space="preserve">
+    <value>设置Y轴刻度（单位：％）
+默认值是100</value>
+  </data>
+  <data name="main_enc_forcestop" xml:space="preserve">
+    <value>你想强制停止编码？</value>
+  </data>
+  <data name="about_ShanaTheme" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="x264optsfrm_GOPlabel" xml:space="preserve">
+    <value>如果您正在使用GOP size，
+禁用关键帧进行快速设置。</value>
+  </data>
+  <data name="editfrm_ShanaTheme" xml:space="preserve">
+    <value>快速设置</value>
+  </data>
+  <data name="segment_starterr" xml:space="preserve">
+    <value>开始时间的格式不正确。</value>
+  </data>
+  <data name="editfrm_timestampcheckBox" xml:space="preserve">
+    <value>时间戳</value>
+  </data>
+  <data name="editfrm_subsellabel" xml:space="preserve">
+    <value>要使用隐藏字幕，
+请选择文件格式为3gp，3g2，mp4，mov，mkv。</value>
+  </data>
+  <data name="filter_vf_setsar" xml:space="preserve">
+    <value>采样采样纵横比
+默认值是1/1</value>
+  </data>
+  <data name="main_metext" xml:space="preserve">
+    <value>ShanaEncoder</value>
+  </data>
+  <data name="mainfrm_aboutToolStripMenuItem" xml:space="preserve">
+    <value>关于(&amp;A)</value>
+  </data>
+  <data name="about_nowver" xml:space="preserve">
+    <value>当前版本：</value>
+  </data>
+  <data name="about_newver" xml:space="preserve">
+    <value>最新版本：</value>
+  </data>
+  <data name="main_info_playtime" xml:space="preserve">
+    <value>时长：</value>
+  </data>
+  <data name="subdelayfrm_delaylabel" xml:space="preserve">
+    <value>字幕延迟</value>
+  </data>
+  <data name="mainfrm_lvupToolStripMenuItem" xml:space="preserve">
+    <value>上一个(&amp;U)</value>
+  </data>
+  <data name="mainfrm_removeToolStripMenuItem" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="segmentfrm_croptabPage" xml:space="preserve">
+    <value>裁剪</value>
+  </data>
+  <data name="streamfrm_cancelbutton" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="xmlsavefrm_namelabel" xml:space="preserve">
+    <value>名称：</value>
+  </data>
+  <data name="streamfrm_ShanaTheme" xml:space="preserve">
+    <value>视频/音频流选择</value>
+  </data>
+  <data name="filterfrm_parameter" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="subtitle_italic" xml:space="preserve">
+    <value>设置是否使用斜体。
+-1启用，0禁用。</value>
+  </data>
+  <data name="edit_cc_sn" xml:space="preserve">
+    <value>由于使用了隐藏字幕，无法设置。</value>
+  </data>
+  <data name="about_newver_chk" xml:space="preserve">
+    <value>检查最新版本</value>
+  </data>
+  <data name="mainfrm_selallToolStripMenuItem" xml:space="preserve">
+    <value>全选</value>
+  </data>
+  <data name="logofrm_ShanaTheme" xml:space="preserve">
+    <value>Logo覆盖</value>
+  </data>
+  <data name="aboutfrm_okbutton" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="mainfrm_SubtitleSelToolStripMenuItem" xml:space="preserve">
+    <value>字幕选择</value>
+  </data>
+  <data name="edit_yadif" xml:space="preserve">
+    <value>您已经选择了Yadif Deinterlace。
+Yadif位于过滤器顺序的顶部。</value>
+  </data>
+  <data name="vfaddfrm_vfbutton" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="editfrm_eqBassToolStripMenuItem" xml:space="preserve">
+    <value>低音</value>
+  </data>
+  <data name="editfrm_veqcheckBox" xml:space="preserve">
+    <value>启用Eq</value>
+  </data>
+  <data name="mainfrm_allremoveToolStripMenuItem" xml:space="preserve">
+    <value>移除全部</value>
+  </data>
+  <data name="editfrm_lamecbrradioButton" xml:space="preserve">
+    <value>CBR</value>
+  </data>
+  <data name="mainfrm_listView_playtime" xml:space="preserve">
+    <value>时长</value>
+  </data>
+  <data name="concatenatefrm_encbutton" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="aboutfrm_infoButton" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="editfrm_earwaxcheckBox" xml:space="preserve">
+    <value>启用Earwax（输出到44100Hz）</value>
+  </data>
+  <data name="mainfrm_languageToolStripMenuItem" xml:space="preserve">
+    <value>语言</value>
+  </data>
+  <data name="shanamtfrm_ShanaTheme" xml:space="preserve">
+    <value>多线程/同步</value>
+  </data>
+  <data name="mainfrm_PHighToolStripMenuItem" xml:space="preserve">
+    <value>更高</value>
+  </data>
+  <data name="mainfrm_trayToolStripMenuItem" xml:space="preserve">
+    <value>将主窗口关闭到托盘</value>
+  </data>
+  <data name="mainfrm_ExitToolStripMenuItem" xml:space="preserve">
+    <value>退出(&amp;X)</value>
+  </data>
+  <data name="subtitle_borderstyle" xml:space="preserve">
+    <value>设置边框样式。
+1是轮廓+阴影, 3是不透明框。</value>
+  </data>
+  <data name="subtitlefrm_ShanaTheme" xml:space="preserve">
+    <value>字幕样式</value>
+  </data>
+  <data name="mainfrm_qsetToolStripMenuItem" xml:space="preserve">
+    <value>快速设置</value>
+  </data>
+  <data name="afterencodingfrm_1_infoLabel" xml:space="preserve">
+    <value>30秒后关机。</value>
+  </data>
+  <data name="logofrm_logoelabel" xml:space="preserve">
+    <value>淡出</value>
+  </data>
+  <data name="main_info_subtitle" xml:space="preserve">
+    <value>字幕：</value>
+  </data>
+  <data name="logofrm_logoecheckBox" xml:space="preserve">
+    <value>结束时间</value>
+  </data>
+  <data name="mainfrm_listView_format" xml:space="preserve">
+    <value>格式</value>
+  </data>
+  <data name="editfrm_eqRockToolStripMenuItem" xml:space="preserve">
+    <value>摇滚</value>
+  </data>
+  <data name="editfrm_x265presetlabel" xml:space="preserve">
+    <value>预设</value>
+  </data>
+  <data name="setdeffrm_ShanaTheme" xml:space="preserve">
+    <value>加载设置默认</value>
+  </data>
+  <data name="subtitle_outlinecolour" xml:space="preserve">
+    <value>设置轮廓颜色和透明度。
+（&amp;&amp;H 透明度 蓝 绿 红）顺序的十六进制值。</value>
+  </data>
+  <data name="mainfrm_x8632bitToolStripMenuItem" xml:space="preserve">
+    <value>x86（32位）</value>
+  </data>
+  <data name="afaddfrm_afbutton" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="mainfrm_noticegroupBox" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="filterfrm_ShanaTheme" xml:space="preserve">
+    <value>过滤器设置</value>
+  </data>
+  <data name="logofrm_logoscheckBox" xml:space="preserve">
+    <value>开始时间</value>
+  </data>
+  <data name="openclfrm_ShanaTheme" xml:space="preserve">
+    <value>OpenCL加速设置</value>
+  </data>
+  <data name="main_pass_exist" xml:space="preserve">
+    <value>跳过【存在】</value>
+  </data>
+  <data name="editfrm_stereoradioButton" xml:space="preserve">
+    <value>立体声</value>
+  </data>
+  <data name="concatenatefrm_cancelbutton" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="edit_cc_caution" xml:space="preserve">
+    <value>变速设置和隐藏字幕同时使用。
+可能会出现字幕同步问题。
+不推荐使用变速设置或隐藏字幕。</value>
+  </data>
+  <data name="editfrm_volcheckBox" xml:space="preserve">
+    <value>音量</value>
+  </data>
+  <data name="logofrm_logoilabel" xml:space="preserve">
+    <value>如果视频编解码器是复制（直接流复制），则logo被禁用。
+logo在预览中不可见（仅限编码）</value>
+  </data>
+  <data name="editfrm_h264_nvenccloselabel" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="filterfrm_vfdefbutton" xml:space="preserve">
+    <value>默认视频过滤器</value>
+  </data>
+  <data name="afterencodingfrm_0_ShanaTheme" xml:space="preserve">
+    <value>自动休眠</value>
+  </data>
+  <data name="segmentfrm_supbutton" xml:space="preserve">
+    <value>快速</value>
+  </data>
+  <data name="edit_copy" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="edit_none" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="main_input_file_not_found" xml:space="preserve">
+    <value>输入文件不存在。</value>
+  </data>
+  <data name="mainfrm_rButton" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="edit_exten_caution" xml:space="preserve">
+    <value>扩展名不能包含 \, /, :, *, ?, &lt;, &gt;, | 字符。</value>
+  </data>
+  <data name="main_encstop" xml:space="preserve">
+    <value>编码已经停止。</value>
+  </data>
+  <data name="mainfrm_encindividualCheckBox" xml:space="preserve">
+    <value>独立设置</value>
+  </data>
+  <data name="vfaddfrm_helplabel" xml:space="preserve">
+    <value>参数（不能以‘=’开头）</value>
+  </data>
+  <data name="afterencodingfrm_1_ShanaTheme" xml:space="preserve">
+    <value>自动关机</value>
+  </data>
+  <data name="logofrm_logoslabel" xml:space="preserve">
+    <value>淡入</value>
+  </data>
+  <data name="subdelayfrm_cancelbutton" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="main_encstarttime" xml:space="preserve">
+    <value>编码开始时间：</value>
+  </data>
+  <data name="main_enc_forcestop_exit" xml:space="preserve">
+    <value>你想强制停止编码并退出ShanaEncoder？</value>
+  </data>
+  <data name="mainfrm_AfterEncodingToolStripMenuItem" xml:space="preserve">
+    <value>编码之后</value>
+  </data>
+  <data name="editfrm_speedgroupBox" xml:space="preserve">
+    <value>变速</value>
+  </data>
+  <data name="main_encfinish" xml:space="preserve">
+    <value>编码已经完成。</value>
+  </data>
+  <data name="editfrm_defButton" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="editfrm_x264levellabel" xml:space="preserve">
+    <value>级别</value>
+  </data>
+  <data name="openclfrm_gpulabel" xml:space="preserve">
+    <value>请选择显卡。</value>
+  </data>
+  <data name="mainfrm_sleepcheckBox" xml:space="preserve">
+    <value>自动休眠</value>
+  </data>
+  <data name="main_set_chg_s_a" xml:space="preserve">
+    <value>更改了所有选定项目的设置。</value>
+  </data>
+  <data name="main_set_chg_now" xml:space="preserve">
+    <value>您是否要将设置更改为当前设置？</value>
+  </data>
+  <data name="mainfrm_outplayToolStripMenuItem" xml:space="preserve">
+    <value>输出文件回放</value>
+  </data>
+  <data name="subtitlefrm_styleButton" xml:space="preserve">
+    <value>替换</value>
+  </data>
+  <data name="mainfrm_encbasicCheckBox" xml:space="preserve">
+    <value>基本模式</value>
+  </data>
+  <data name="editfrm_hevc_nvencpresetlabel" xml:space="preserve">
+    <value>预设</value>
+  </data>
+  <data name="mainfrm_encnoneToolStripMenuItem" xml:space="preserve">
+    <value>跳过</value>
+  </data>
+  <data name="main_info_elapsed" xml:space="preserve">
+    <value>已耗时</value>
+  </data>
+  <data name="mainfrm_presetToolStripMenuItem" xml:space="preserve">
+    <value>预设</value>
+  </data>
+  <data name="shanaffplay_loading" xml:space="preserve">
+    <value>加载中</value>
+  </data>
+  <data name="editfrm_unsharpcheckBox" xml:space="preserve">
+    <value>模糊/锐化</value>
+  </data>
+  <data name="edit_pass2_caution" xml:space="preserve">
+    <value>此编解码器无法自动设置适当的2 Pass比特率。
+较低的比特率可能会发生错误。</value>
+  </data>
+  <data name="main_processtime" xml:space="preserve">
+    <value>已耗时</value>
+  </data>
+  <data name="editfrm_x264ffpass0checkBox" xml:space="preserve">
+    <value>慢速第一通道</value>
+  </data>
+  <data name="editfrm_subtitlehlabel" xml:space="preserve">
+    <value>如果不使用隐藏字幕，请启用“禁用字幕复制”
+以防止编码错误。</value>
+  </data>
+  <data name="editfrm_vtagcheckBox" xml:space="preserve">
+    <value>四字符编码(FourCC)</value>
+  </data>
+  <data name="mainfrm_filesizelabel" xml:space="preserve">
+    <value>文件大小</value>
+  </data>
+  <data name="mainfrm_procTabButton" xml:space="preserve">
+    <value>进度状态</value>
+  </data>
+  <data name="mainfrm_listView_subtitle" xml:space="preserve">
+    <value>字幕</value>
+  </data>
+  <data name="editfrm_audiomodelabel" xml:space="preserve">
+    <value>模式</value>
+  </data>
+  <data name="editfrm_bitonlylabel" xml:space="preserve">
+    <value>只有比特率可用。</value>
+  </data>
+  <data name="shanamtfrm_encgroupBox" xml:space="preserve">
+    <value>编码</value>
+  </data>
+  <data name="segmentfrm_BottomLabel" xml:space="preserve">
+    <value>下：</value>
+  </data>
+  <data name="logofrm_logolbradioButton" xml:space="preserve">
+    <value>左下方</value>
+  </data>
+  <data name="streamfrm_vaddButton" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="editfrm_huesButton" xml:space="preserve">
+    <value>饱和度</value>
+  </data>
+  <data name="edit_audiobit_chg" xml:space="preserve">
+    <value>音频比特率的值在音频比特率的下拉列表中不存在。
+这可能造成错误。
+要修复为正确的设置吗？</value>
+  </data>
+  <data name="main_output_folder_not_found" xml:space="preserve">
+    <value>输出目录不存在。</value>
+  </data>
+  <data name="mainfrm_addToolStripMenuItem" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="mainfrm_folderBrowserButton" xml:space="preserve">
+    <value>浏览</value>
+  </data>
+  <data name="logofrm_cancelbutton" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="mainfrm_forcestopButton" xml:space="preserve">
+    <value>强制停止</value>
+  </data>
+  <data name="mainfrm_playToolStripMenuItem" xml:space="preserve">
+    <value>文件回放</value>
+  </data>
+  <data name="editfrm_audioButton" xml:space="preserve">
+    <value>音频</value>
+  </data>
+  <data name="filterfrm_name" xml:space="preserve">
+    <value>名称</value>
+  </data>
+  <data name="mainfrm_selsettingsToolStripMenuItem" xml:space="preserve">
+    <value>快速设置</value>
+  </data>
+  <data name="main_enc_forcestop_msg" xml:space="preserve">
+    <value>应用被强制终止。</value>
+  </data>
+  <data name="editfrm_x264procheckBox" xml:space="preserve">
+    <value>启用更多</value>
+  </data>
+  <data name="editfrm_recheckBox" xml:space="preserve">
+    <value>编码速度限制为输入帧率（1.0x）和实时编码</value>
+  </data>
+  <data name="aboutfrm_licenseButton" xml:space="preserve">
+    <value>协议</value>
+  </data>
+  <data name="segmentfrm_shortcutkeyinfo" xml:space="preserve">
+    <value>要查看此帮助，请按F1键。
+
+-------------------------
+
+播放/暂停
+空格
+
+.
+s
+
+&lt;&lt;
+e
+
+&lt;
+d
+
+&gt;
+f
+
+&gt;&gt;
+r
+
+减速
+[
+
+加速
+]
+
+音量
+鼠标滚轮</value>
+  </data>
+  <data name="streamfrm_loopcancelbutton" xml:space="preserve">
+    <value>放弃更改并关闭</value>
+  </data>
+  <data name="segmentfrm_cancelbutton" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="editfrm_cancelButton" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="main_enc" xml:space="preserve">
+    <value>编码</value>
+  </data>
+  <data name="editfrm_qpradioButton" xml:space="preserve">
+    <value>量化器</value>
+  </data>
+  <data name="subdelayfrm_loopcancelbutton" xml:space="preserve">
+    <value>放弃更改并关闭</value>
+  </data>
+  <data name="editfrm_removempeq2" xml:space="preserve">
+    <value>mp = eq2滤波器改为eq滤波器，请保存这个预置。</value>
+  </data>
+  <data name="main_xml_file" xml:space="preserve">
+    <value>XML文件</value>
+  </data>
+  <data name="editfrm_speedlabel" xml:space="preserve">
+    <value>如果设置为1，则设置被禁用。</value>
+  </data>
+  <data name="mainfrm_PAboveNormalToolStripMenuItem" xml:space="preserve">
+    <value>高于标准</value>
+  </data>
+  <data name="editfrm_yadifcheckBox" xml:space="preserve">
+    <value>隔行扫描</value>
+  </data>
+  <data name="segmentfrm_sdnbutton" xml:space="preserve">
+    <value>慢速</value>
+  </data>
+  <data name="filterfrm_addbutton" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="edit_yadif_double" xml:space="preserve">
+    <value>您已经选择了双倍帧率。
+请选择双倍帧速率。</value>
+  </data>
+  <data name="parameterfrm_okbutton" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="logofrm_filepathlabel" xml:space="preserve">
+    <value>Logo图像文件路径</value>
+  </data>
+  <data name="logofrm_aligngroupBox" xml:space="preserve">
+    <value>对齐</value>
+  </data>
+  <data name="editfrm_eqTrebleToolStripMenuItem" xml:space="preserve">
+    <value>高音</value>
+  </data>
+  <data name="editfrm_shanaeqpresetButton" xml:space="preserve">
+    <value>预设</value>
+  </data>
+  <data name="main_info_format" xml:space="preserve">
+    <value>格式：</value>
+  </data>
+  <data name="edit_need_abit" xml:space="preserve">
+    <value>这个音频编解码器需要音频比特率。
+音频比特率设置为128。</value>
+  </data>
+  <data name="mainfrm_chkallToolStripMenuItem" xml:space="preserve">
+    <value>选择全部</value>
+  </data>
+  <data name="parameterfrm_extenslabel" xml:space="preserve">
+    <value>扩展名</value>
+  </data>
+  <data name="main_output_file_not_found" xml:space="preserve">
+    <value>输出文件不存在或找不到文件。</value>
+  </data>
+  <data name="main_set_chg_s" xml:space="preserve">
+    <value>设置已被更改。</value>
+  </data>
+  <data name="main_target_low" xml:space="preserve">
+    <value>目标尺寸太小</value>
+  </data>
+  <data name="afaddfrm_helplabel" xml:space="preserve">
+    <value>参数（不能以‘=’开头）</value>
+  </data>
+  <data name="editfrm_prefixlabel" xml:space="preserve">
+    <value>文件名前缀</value>
+  </data>
+  <data name="editfrm_aspect2" xml:space="preserve">
+    <value>裁剪</value>
+  </data>
+  <data name="editfrm_aspect1" xml:space="preserve">
+    <value>填充</value>
+  </data>
+  <data name="editfrm_aspect0" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="mainfrm_noticecloseButton" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="afterencodingfrm_0_infoLabel" xml:space="preserve">
+    <value>30秒后休眠。</value>
+  </data>
+  <data name="editfrm_subtitlealignlabel" xml:space="preserve">
+    <value>对齐</value>
+  </data>
+  <data name="subtitlefrm_style" xml:space="preserve">
+    <value>样式</value>
+  </data>
+  <data name="mainfrm_logToolStripMenuItem" xml:space="preserve">
+    <value>查看日志</value>
+  </data>
+  <data name="shanaffplay_macroblockTypesToolStripMenuItem" xml:space="preserve">
+    <value>宏块类型</value>
+  </data>
+  <data name="editfrm_extrastereocheckBox" xml:space="preserve">
+    <value>启用额外的立体声</value>
+  </data>
+  <data name="mainfrm_unselallToolStripMenuItem" xml:space="preserve">
+    <value>全部取消</value>
+  </data>
+  <data name="mainfrm_BackToolStripMenuItem" xml:space="preserve">
+    <value>标题栏</value>
+  </data>
+  <data name="filter_vf_scale" xml:space="preserve">
+    <value>设置比例（视频大小）
+宽度：高度：调整过滤器的大小
+如果宽度或高度值为-1，则自动设置宽度或高度。
+与SAR或DAR成比例</value>
+  </data>
+  <data name="filter_vf_yadif" xml:space="preserve">
+    <value>设置yadif（模式：奇偶校验：扫描行）
+如果模式值为1或3，则设置为倍速。
+奇偶校验0 = 顶场优先，1 = 底场优先，-1 =自动
+扫描行 0 = 全部，1 = 隔行</value>
+  </data>
+  <data name="parameterfrm_prefixslabel" xml:space="preserve">
+    <value>文件名前缀</value>
+  </data>
+  <data name="parameterfrm_ShanaTheme" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="main_log_save_notice" xml:space="preserve">
+    <value>日志保存在安装文件夹中的settings\shanaencoder.log中。</value>
+  </data>
+  <data name="streamfrm_aaddButton" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="streamfrm_vdelButton" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="setdeffrm_defButton" xml:space="preserve">
+    <value>更改为默认值</value>
+  </data>
+  <data name="shanaffplayfrm_histogramToolStripMenuItem" xml:space="preserve">
+    <value>直方图</value>
+  </data>
+  <data name="editfrm_tunezlcheckBox" xml:space="preserve">
+    <value>零延迟</value>
+  </data>
+  <data name="editfrm_fontsizelabel" xml:space="preserve">
+    <value>字体大小</value>
+  </data>
+  <data name="editfrm_huecheckBox" xml:space="preserve">
+    <value>启用色调</value>
+  </data>
+  <data name="shana_sa_form" xml:space="preserve">
+    <value>提取字幕文件...</value>
+  </data>
+  <data name="editfrm_veqgButton" xml:space="preserve">
+    <value>伽玛</value>
+  </data>
+  <data name="mainfrm_subdelayToolStripMenuItem" xml:space="preserve">
+    <value>字幕延迟/首选语言(&amp;W)</value>
+  </data>
+  <data name="editfrm_vbitrateradioButton" xml:space="preserve">
+    <value>比特率</value>
+  </data>
+  <data name="setdeffrm_subtitlecheckBox" xml:space="preserve">
+    <value>字幕设置</value>
+  </data>
+  <data name="editfrm_shanaeqcheckBox" xml:space="preserve">
+    <value>启用音频均衡器</value>
+  </data>
+  <data name="editfrm_targetcheckBox" xml:space="preserve">
+    <value>根据文件大小设置视频比特率</value>
+  </data>
+  <data name="mainfrm_outFileInfoToolStripMenuItem" xml:space="preserve">
+    <value>输出文件信息</value>
+  </data>
+  <data name="editfrm_h264_nvencprofilelabel" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="main_notifyIcon_open" xml:space="preserve">
+    <value>ShanaEncoder正在运行。</value>
+  </data>
+  <data name="mainfrm_startButton" xml:space="preserve">
+    <value>开始</value>
+  </data>
+  <data name="editfrm_transposeverticallycheckBox" xml:space="preserve">
+    <value>垂直翻转</value>
+  </data>
+  <data name="main_pm_save2" xml:space="preserve">
+    <value>您确定要保存这个预设吗？</value>
+  </data>
+  <data name="mainfrm_NewVerToolStripMenuItem" xml:space="preserve">
+    <value>[有新版本可用]</value>
+  </data>
+  <data name="mainfrm_segmentToolStripMenuItem" xml:space="preserve">
+    <value>设置分割/裁剪(&amp;Q)</value>
+  </data>
+  <data name="main_speed" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="main_x264paramupdate" xml:space="preserve">
+    <value>x264设置已经自动更改。
+配置文件和调整参数从空变为无。
+级别参数从“自动”更改为“自动”。
+请检查设置并保存更改。</value>
+  </data>
+  <data name="edit_fdkhev2aacchk" xml:space="preserve">
+    <value>您必须在HE-AACv2中选择立体声通道。</value>
+  </data>
+  <data name="main_error" xml:space="preserve">
+    <value>错误</value>
+  </data>
+  <data name="main_notifyIcon_open2" xml:space="preserve">
+    <value>托盘图标已启用。</value>
+  </data>
+  <data name="mainfrm_lvdnToolStripMenuItem" xml:space="preserve">
+    <value>下一个(&amp;D)</value>
+  </data>
+  <data name="editfrm_shananmcheckBox" xml:space="preserve">
+    <value>启用动态音频规范器</value>
+  </data>
+  <data name="segmentfrm_infolabel" xml:space="preserve">
+    <value>按播放/暂停按钮播放文件。</value>
+  </data>
+  <data name="editfrm_swslabel" xml:space="preserve">
+    <value>缩放过滤器</value>
+  </data>
+  <data name="editfrm_speedcheckBox" xml:space="preserve">
+    <value>启用</value>
+  </data>
+  <data name="mainfrm_menuButton" xml:space="preserve">
+    <value>文件(&amp;F)</value>
+  </data>
+  <data name="main_1pass" xml:space="preserve">
+    <value>1 Pass</value>
+  </data>
+  <data name="main_2pass" xml:space="preserve">
+    <value>2 Pass</value>
+  </data>
+  <data name="subtitle_fontname" xml:space="preserve">
+    <value>设置字体名称。</value>
+  </data>
+  <data name="subtitle_fontsize" xml:space="preserve">
+    <value>设置字体大小。
+推荐的设置范围是0〜99</value>
+  </data>
+  <data name="editfrm_fpscheckBox" xml:space="preserve">
+    <value>帧率</value>
+  </data>
+  <data name="mainfrm_configureToolStripMenuItem" xml:space="preserve">
+    <value>偏好设置(&amp;P)</value>
+  </data>
+  <data name="editfrm_logoButton" xml:space="preserve">
+    <value>Logo</value>
+  </data>
+  <data name="editfrm_yadiffieldcheckBox" xml:space="preserve">
+    <value>双帧速率</value>
+  </data>
+  <data name="editfrm_encButton" xml:space="preserve">
+    <value>编码</value>
+  </data>
+  <data name="segmentfrm_ShortcutsButton" xml:space="preserve">
+    <value>快捷键</value>
+  </data>
+  <data name="main_info_audio" xml:space="preserve">
+    <value>音频：</value>
+  </data>
+  <data name="main_info_frame" xml:space="preserve">
+    <value>帧</value>
+  </data>
+  <data name="main_info_input" xml:space="preserve">
+    <value>输入：</value>
+  </data>
+  <data name="openfrm_fileaddlabel" xml:space="preserve">
+    <value>信息已被提取。
+信息被提取。</value>
+  </data>
+  <data name="afaddfrm_ShanaTheme" xml:space="preserve">
+    <value>音频过滤器</value>
+  </data>
+  <data name="main_pm_saveas" xml:space="preserve">
+    <value>保存一个新的预设名称</value>
+  </data>
+  <data name="main_info_output" xml:space="preserve">
+    <value>输出：</value>
+  </data>
+  <data name="main_info_video" xml:space="preserve">
+    <value>视频：</value>
+  </data>
+  <data name="filter_af_aresample" xml:space="preserve">
+    <value>设置音频采样率。
+左值是采样率，右值是重采样器。
+您可以选择两个重新采样器（soxr或swr）
+默认是44100：resampler = soxr</value>
+  </data>
+  <data name="main_info_speed" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="shanamtfrm_decgroupBox" xml:space="preserve">
+    <value>解码</value>
+  </data>
+  <data name="editfrm_transposerightradioButton" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="mainfrm_filterToolStripMenuItem" xml:space="preserve">
+    <value>过滤器设置</value>
+  </data>
+  <data name="edit_need_asample" xml:space="preserve">
+    <value>这个音频编解码器或音频模式需要音频采样率。
+自动使用。</value>
+  </data>
+  <data name="filterfrm_afButton" xml:space="preserve">
+    <value>音频</value>
+  </data>
+  <data name="subtitlefrm_format" xml:space="preserve">
+    <value>格式</value>
+  </data>
+  <data name="segmentfrm_SizeLabel" xml:space="preserve">
+    <value>尺寸：</value>
+  </data>
+  <data name="editfrm_openclcheckBox" xml:space="preserve">
+    <value>OpenCL加速</value>
+  </data>
+  <data name="mainfrm_x6464bitToolStripMenuItem" xml:space="preserve">
+    <value>x64（64位）</value>
+  </data>
+  <data name="main_encstart" xml:space="preserve">
+    <value>输入文件名：</value>
+  </data>
+  <data name="edit_audiosample_chg" xml:space="preserve">
+    <value>音频采样率的值在音频采样率的下拉列表中不存在。
+这可能造成错误。
+要修复为正确的设置吗？</value>
+  </data>
+  <data name="setdeffrm_deflabel" xml:space="preserve">
+    <value>所选项目被设置为默认值。</value>
+  </data>
+  <data name="main_encerror" xml:space="preserve">
+    <value>编码错误已经发生。</value>
+  </data>
+  <data name="main_enc_stop" xml:space="preserve">
+    <value>你想停止编码？</value>
+  </data>
+  <data name="editfrm_metarecheckBox" xml:space="preserve">
+    <value>删除元数据</value>
+  </data>
+  <data name="x264optsfrm_ShanaTheme" xml:space="preserve">
+    <value>x264配置</value>
+  </data>
+  <data name="shanamtfrm_cancelbutton" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="editfrm_transposeleftradioButton" xml:space="preserve">
+    <value>左</value>
+  </data>
+  <data name="main_please_add_file" xml:space="preserve">
+    <value>请选择列表或添加文件。</value>
+  </data>
+  <data name="shanamtfrm_defbutton" xml:space="preserve">
+    <value>默认</value>
+  </data>
+  <data name="filterfrm_changebutton" xml:space="preserve">
+    <value>替换</value>
+  </data>
+  <data name="editfrm_keyframecheckBox" xml:space="preserve">
+    <value>关键帧</value>
+  </data>
+  <data name="mainfrm_OpenToolStripMenuItem" xml:space="preserve">
+    <value>打开ShanaEncoder(&amp;O)</value>
+  </data>
+  <data name="concatenate_notice" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="openfrm_add" xml:space="preserve">
+    <value>添加</value>
+  </data>
+  <data name="editfrm_x264proButton" xml:space="preserve">
+    <value>更多设置</value>
+  </data>
+  <data name="subtitle_marginl" xml:space="preserve">
+    <value>设置左边距。
+推荐的设置范围是0〜1000</value>
+  </data>
+  <data name="subtitle_marginr" xml:space="preserve">
+    <value>设置右边距。
+推荐的设置范围是0〜1000</value>
+  </data>
+  <data name="subtitle_marginv" xml:space="preserve">
+    <value>设置垂直边距。
+推荐的设置范围是0〜1000</value>
+  </data>
+  <data name="xmlsavefrm_savebutton" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="editfrm_lamedefradioButton" xml:space="preserve">
+    <value>未使用</value>
+  </data>
+  <data name="mainfrm_setchangeToolStripMenuItem" xml:space="preserve">
+    <value>将设置更改为</value>
+  </data>
+  <data name="main_noitemsel" xml:space="preserve">
+    <value>没有在编码列表中选择的项目。</value>
+  </data>
+  <data name="setdeffrm_enccheckBox" xml:space="preserve">
+    <value>编码设置
+（包括输入，前缀，扩展名）</value>
+  </data>
+  <data name="mainfrm_selparamToolStripMenuItem" xml:space="preserve">
+    <value>参数</value>
+  </data>
+  <data name="subtitlefrm_cancelbutton" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="editfrm_openclButton" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="shanaffplayfrm_error" xml:space="preserve">
+    <value>ShanaFFplay已被终止。
+
+播放结束之前：
+由于无效参数或其他进程正在使用的文件而无法播放。</value>
+  </data>
+  <data name="segmentfrm_ShanaTheme" xml:space="preserve">
+    <value>设置分割/裁剪</value>
+  </data>
+  <data name="logofrm_fadegroupBox" xml:space="preserve">
+    <value>Logo淡入淡出，并设置时间（秒）。</value>
+  </data>
+  <data name="shanaffplayfrm_helpn" xml:space="preserve">
+    <value>帮助</value>
+  </data>
+  <data name="main_tray_exit_move_notice" xml:space="preserve">
+    <value>当你关闭程序时来这里。</value>
+  </data>
+  <data name="filter_vf_shanasubtitle" xml:space="preserve">
+    <value>字幕覆盖
+字幕覆盖 = 1是启用/ 字幕覆盖 = 0是禁用的。
+支持ASS，SSA，SMI文件。</value>
+  </data>
+  <data name="editfrm_unsharplabel" xml:space="preserve">
+    <value>模糊：小于0，锐化：大于0（默认：0）</value>
+  </data>
+  <data name="main_preset_folder_not_found" xml:space="preserve">
+    <value>预设目录不存在。</value>
+  </data>
+  <data name="segmentfrm_ppbutton" xml:space="preserve">
+    <value>播放/暂停</value>
+  </data>
+  <data name="mainfrm_openFolderButton" xml:space="preserve">
+    <value>打开</value>
+  </data>
+  <data name="subtitle_primarycolour" xml:space="preserve">
+    <value>设置主要颜色和透明度。
+（&amp;&amp;H 透明度 蓝 绿 红）顺序的十六进制值。</value>
+  </data>
+  <data name="editfrm_sncheckBox" xml:space="preserve">
+    <value>禁用字幕复制</value>
+  </data>
+  <data name="mainfrm_listView_name" xml:space="preserve">
+    <value> 名称</value>
+  </data>
+  <data name="main_stop" xml:space="preserve">
+    <value>停止</value>
+  </data>
+  <data name="main_pass" xml:space="preserve">
+    <value>跳过</value>
+  </data>
+  <data name="main_wait" xml:space="preserve">
+    <value>等待</value>
+  </data>
+  <data name="main_copy" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="main_fail" xml:space="preserve">
+    <value>失败</value>
+  </data>
+  <data name="main_help" xml:space="preserve">
+    <value>操作方式：1、从菜单中添加文件 2、单击设置或预设 3、开始</value>
+  </data>
+  <data name="main_none" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="editfrm_hevc_nvencprofilelabel" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="filterfrm_bottombutton" xml:space="preserve">
+    <value>下移</value>
+  </data>
+  <data name="editfrm_scalecheckBox" xml:space="preserve">
+    <value>图片大小</value>
+  </data>
+  <data name="parameterfrm_filterparamslabel" xml:space="preserve">
+    <value>过滤器参数</value>
+  </data>
+  <data name="parameterfrm_cancelbutton" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="shanamtfrm_okbutton" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="filterfrm_afdefbutton" xml:space="preserve">
+    <value>默认音频过滤器</value>
+  </data>
+  <data name="editfrm_acodeclabel" xml:space="preserve">
+    <value>编解码器</value>
+  </data>
+  <data name="vfaddfrm_ShanaTheme" xml:space="preserve">
+    <value>视频过滤器</value>
+  </data>
+  <data name="edit_relimit" xml:space="preserve">
+    <value>如果使用此功能，编码速度限制在1x以下。
+快速编码是不可能的。</value>
+  </data>
+  <data name="editfrm_x264presetlabel" xml:space="preserve">
+    <value>预设</value>
+  </data>
+  <data name="concatenatefrm_namelabel" xml:space="preserve">
+    <value>文件名：</value>
+  </data>
+  <data name="mainfrm_FontToolStripMenuItem" xml:space="preserve">
+    <value>字体</value>
+  </data>
+  <data name="mainfrm_PIdleToolStripMenuItem" xml:space="preserve">
+    <value>更低</value>
+  </data>
+  <data name="parameterfrm_inputslabel" xml:space="preserve">
+    <value>输入设置</value>
+  </data>
+  <data name="edit_anvncopylabel" xml:space="preserve">
+    <value>复制是直接流复制。
+复制模式可能会因为文件出现错误。
+选择无则不对视频或音频编码。
+
+*如果使用，则会禁用编码设置和过滤器设置。</value>
+  </data>
+  <data name="editfrm_BackLabel2" xml:space="preserve">
+    <value>阴影</value>
+  </data>
+  <data name="mainfrm_poslabel" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="editfrm_monoradioButton" xml:space="preserve">
+    <value>单声道</value>
+  </data>
+  <data name="subtitle_encoding" xml:space="preserve">
+    <value>设置字符编码。
+缺省值是1</value>
+  </data>
+  <data name="edit_samplechk" xml:space="preserve">
+    <value>设置的采样率不能使用。
+自动选择适当的采样率。</value>
+  </data>
+  <data name="afterencodingfrm_1_cancelbutton" xml:space="preserve">
+    <value>取消</value>
+  </data>
+  <data name="main_userxmlname" xml:space="preserve">
+    <value>自定义</value>
+  </data>
+  <data name="mainfrm_selnewsaveToolStripMenuItem" xml:space="preserve">
+    <value>保存一个新的预设名称</value>
+  </data>
+  <data name="edit_video_quality" xml:space="preserve">
+    <value>视频质量</value>
+  </data>
+  <data name="edit_video_bitrate" xml:space="preserve">
+    <value>视频比特率</value>
+  </data>
+  <data name="main_pm_pfolder" xml:space="preserve">
+    <value>打开预设文件夹</value>
+  </data>
+  <data name="editfrm_x265tunelabel" xml:space="preserve">
+    <value>调整</value>
+  </data>
+  <data name="editfrm_veqcButton" xml:space="preserve">
+    <value>对比度</value>
+  </data>
+  <data name="editfrm_x264profilelabel" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="logo_patherr" xml:space="preserve">
+    <value>Logo 路径不能包含 % 。</value>
+  </data>
+  <data name="editfrm_fivedotoneradioButton" xml:space="preserve">
+    <value>5.1声道</value>
+  </data>
+  <data name="editfrm_formatlabel" xml:space="preserve">
+    <value>文件格式</value>
+  </data>
+  <data name="main_set_chg" xml:space="preserve">
+    <value />
+  </data>
+  <data name="mainfrm_ofoldercheckBox" xml:space="preserve">
+    <value>源文件夹</value>
+  </data>
+  <data name="mainfrm_PBelowNormalToolStripMenuItem" xml:space="preserve">
+    <value>低于标准</value>
+  </data>
+  <data name="subdelayfrm_pclasslabel" xml:space="preserve">
+    <value>首选语言</value>
+  </data>
+  <data name="mainfrm_FileInfoToolStripMenuItem" xml:space="preserve">
+    <value>文件信息</value>
+  </data>
+  <data name="mainfrm_unchkallToolStripMenuItem" xml:space="preserve">
+    <value>全部取消</value>
+  </data>
+  <data name="mainfrm_encmodelabel" xml:space="preserve">
+    <value>编码模式：</value>
+  </data>
+  <data name="editfrm_vcodeclabel" xml:space="preserve">
+    <value>编解码器</value>
+  </data>
+  <data name="editfrm_resizelabel" xml:space="preserve">
+    <value>默认：bicubic</value>
+  </data>
+  <data name="filterfrm_topbutton" xml:space="preserve">
+    <value>上移</value>
+  </data>
+  <data name="filterfrm_removebutton" xml:space="preserve">
+    <value>移除</value>
+  </data>
+  <data name="shanaffplay_motionVectorsToolStripMenuItem" xml:space="preserve">
+    <value>运动矢量</value>
+  </data>
+  <data name="streamfrm_okbutton" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="editfrm_extensionlabel" xml:space="preserve">
+    <value>扩展名</value>
+  </data>
+  <data name="editfrm_chlabel" xml:space="preserve">
+    <value>声道</value>
+  </data>
+  <data name="mainfrm_arButton" xml:space="preserve">
+    <value>移除全部</value>
+  </data>
+  <data name="editfrm_h264_nvencpresetlabel" xml:space="preserve">
+    <value>预设</value>
+  </data>
+  <data name="mainfrm_infoTabButton" xml:space="preserve">
+    <value>文件信息</value>
+  </data>
+  <data name="mainfrm_save_msg" xml:space="preserve">
+    <value>当ShanaEncoder被删除时，安装时复制的预设文件会被删除。
+建议您使用不同的文件名保存。
+此消息只出现一次。</value>
+  </data>
+  <data name="concatenatefrm_noticelabel" xml:space="preserve">
+    <value>文件拼接
+请检查您的设置为正常拼接。
+为了防止同步问题，您应该设置视频帧率，视频图像大小，音频采样率。
+
+- 1、设置视频帧率。
+- 2、视频图像大小。
+- 3、音频采样率。</value>
+  </data>
+  <data name="editfrm_bitrateradioButton2" xml:space="preserve">
+    <value>比特率</value>
+  </data>
+  <data name="editfrm_vadvanButton" xml:space="preserve">
+    <value>配置</value>
+  </data>
+  <data name="editfrm_vquantizerradioButton" xml:space="preserve">
+    <value>量化器</value>
+  </data>
+  <data name="editfrm_globalqualityradioButton" xml:space="preserve">
+    <value>量化器</value>
+  </data>
+  <data name="editfrm_sizelabel" xml:space="preserve">
+    <value>尺寸</value>
+  </data>
+  <data name="main_encinfolabel" xml:space="preserve">
+    <value>请稍候...</value>
+  </data>
+  <data name="editfrm_imgButton" xml:space="preserve">
+    <value>图片/字幕</value>
+  </data>
+  <data name="editfrm_shanaeqallzeroButton" xml:space="preserve">
+    <value>全零</value>
+  </data>
+  <data name="main_realtime" xml:space="preserve">
+    <value>实时</value>
+  </data>
+  <data name="editfrm_hevc_nvenccloselabel" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="subdelayfrm_okbutton" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="editfrm_tunefdcheckBox" xml:space="preserve">
+    <value>快速解码</value>
+  </data>
+  <data name="edit_video_quantizer" xml:space="preserve">
+    <value>视频量化器</value>
+  </data>
+  <data name="editfrm_vsynccfrcheckBox" xml:space="preserve">
+    <value>恒定帧速率编码（允许重复帧）</value>
+  </data>
+  <data name="afterencoding_sec" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="mainfrm_previewToolStripMenuItem" xml:space="preserve">
+    <value>预览</value>
+  </data>
+  <data name="concatenatefrm_ShanaTheme" xml:space="preserve">
+    <value>拼接</value>
+  </data>
+  <data name="segmentfrm_loopcancelbutton" xml:space="preserve">
+    <value>放弃更改并关闭</value>
+  </data>
+  <data name="mainfrm_encnumbToolStripMenuItem" xml:space="preserve">
+    <value>编号</value>
+  </data>
+  <data name="logfrm_okbutton" xml:space="preserve">
+    <value>确认</value>
+  </data>
+  <data name="editfrm_libx265closelabel" xml:space="preserve">
+    <value>关闭</value>
+  </data>
+  <data name="setdeffrm_filtercheckBox" xml:space="preserve">
+    <value>过滤器设置</value>
+  </data>
+  <data name="shanaffplay_notice" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="segmentfrm_RightLabel" xml:space="preserve">
+    <value>右：</value>
+  </data>
+  <data name="editfrm_OutlineLabel2" xml:space="preserve">
+    <value>轮廓</value>
+  </data>
+</root>
